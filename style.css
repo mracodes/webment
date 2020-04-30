@@ -1,0 +1,55 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: mediumslateblue;
+    text-align: center;
+}
+h2 {
+    color: seagreen;
+    text-align: center;
+    font-size: 50PX;
+}
+.form {
+    background-color: mediumslateblue;
+    border-style: ridge;
+    border-color: mediumslateblue;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#t1{
+    margin-left: 150px;
+}
+.button {
+    padding: 5px 17px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+}
+.msgsuccess {
+    text-align: center;
+    font-size: 48px;
+    color: purple;
+    font-weight: bold;
+}
+.srf {
+    font-size: 38px;
+    font-weight: bolder;
+    text-align: center;
+    color: indigo;
+}
+
+.p1 {
+margin-left: 13px;
+display: flex;
+align-items: flex-start;
+color: white;
+}
+.border {
+border-radius: 4px;
+height: 18px;
+}
+

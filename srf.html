@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="images/saylani-logo.png" class="center">
+    <h1><u>STUDENT REGISTRATION FORM</u></h1>
+    <!-- FORM BEGINS -->
+    <form action="submit.html">
+        <div class="form">
+            <!-- FIRST NAME -->
+            <p class="p1"> FIRST NAME
+                <label for="firstname" style="margin-left: 50px;">
+                    <input type="text" height="10" name="FIRST NAME" size="19" maxlength="30" id="firstname"
+                        placeholder="Enter First Name" class="border" required>
+                </label><small>(max 30 characters a-z and A-Z)</small></p>
+            <!-- LAST NAME -->
+                <p class="p1"> LAST NAME
+                <label for="lastname" style="margin-left: 53px;">
+                    <input type="text" height="10" name="LAST NAME" size="19" maxlength="30" id="lastname"
+                        placeholder="Enter Last Name" class="border" required>
+                </label><small>((max 30 characters a-z and A-Z)</small></p>
+            <!-- DATE OF BIRTH -->
+                <p class="p1"> DATE OF BIRTH
+                <label for="dob" style="margin-left: 28px;">
+                    <select name="day" id="dob" style="border-radius: 4px;" required>
+                        <option disabled selected>Day:</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month" id="dob" style="border-radius: 4px;" required>
+                        <option disabled selected>Month:</option>
+                        <option value="jan">January</option>
+                        <option value="fab">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+                    </select>
+                    <select name="year" style="border-radius: 4px;" required>
+                        <option disabled selected>Year:</option>
+                        <option value="90">1990</option>
+                        <option value="91">1991</option>
+                        <option value="92">1992</option>
+                        <option value="93">1993</option>
+                        <option value="94">1994</option>
+                        <option value="95">1995</option>
+                        <option value="96">1996</option>
+                        <option value="97">1997</option>
+                        <option value="98">1998</option>
+                        <option value="99">1999</option>
+                        <option value="20">2000</option>
+                        <option value="01">2001</option>
+                        <option value="02">2002</option>
+                    </select>
+                </label></p>
+                <!-- EMAIL ID -->
+            <p class="p1"> EMAIL ID
+                <label for="email" style="margin-left: 73px;">
+                    <input type="email" name="email" size="30" id="email" class="border"
+                        placeholder="ENTER YOUR EMAIL ADDRESS">
+                </label></p>
+                <!-- MOBILE NUMBER -->
+            <p class="p1"> MOBILE NUMBER
+                <label for="mobilenumber" style="margin-left: 10px;">
+                    <input type="tel" name="mobilenumber" size="35" id="mobilenumber" class="border"
+                        placeholder="ENTER YOUR MOBILE NUMBER">
+                    <small> 10 digit number</small></label></p>
+            <!-- GENDER -->
+                    <p class="p1"> GENDER
+                <label for="gender" style="margin-left: 80px;">
+                    Male<input type="radio" name="gender" id="gender" value="male"></label>
+                Female<input type="radio" name="gender" id="gender" value="female"></label>
+            </p>
+            <!-- ADDRESS -->
+            <p class="p1"> ADDRESS
+                <label for="address" style="margin-left: 70px;">
+                    <textarea name="address" id="address" cols="40" rows="5" style="border-radius: 4px;"></textarea>
+                </label></p>
+                <!-- CITY -->
+            <p class="p1"> CITY
+                <label for="city" style="margin-left: 105px;">
+                    <input type="text" name="city" size="20" maxlength="30" id="city" placeholder="Enter CITY NAME"
+                        class="border">
+                </label><small>(max 30 characters a-z and A-Z)</small></p>
+            <!-- PINCODE -->
+                <p class="p1"> PIN CODE
+                <label for="pincode" style="margin-left: 68px;">
+                    <input type="tel" name="pincode" size="20" maxlength="6" id="pincode" placeholder="ENTER PINCODE">
+                    <small> (6 digit number)</small></label></p>
+            <!-- STATE -->
+                    <p class="p1"> STATE
+                <label for="state" style="margin-left: 95px;">
+                    <input type="text" size="20" maxlength="30" name="state" id="state"
+                        placeholder="ENTER STATE"><small>(max 30 characters a-z and A-Z)</small></label></p>
+            <!-- COUNTRY -->
+                        <p class="p1"> COUNTRY
+                <label for="country" style="margin-left: 65px;">
+                    <input type="text" name="country" required id="country" placeholder="ENTER COUNTRY"></label></p>
+           <!-- HOBBIES SECTION BEGINS -->
+                    <p style="margin-left: 13px;">  <font color="white">HOBBIES
+                <label for="hobbies" style="margin-left: 65px;"></label>
+                <font color="white"> Playing<input type="checkbox" name="playing" id="hobby">
+                    <font color="white"> Reading<input type="checkbox" name="reading" id="reading">
+                        <font color="white"> Writing<input type="checkbox" name="writing" id="writing">
+                            <font color="white"> Driving<input type="checkbox" name="driving" id="driving"><br>
+                <label for="others" style="margin-left: 138px;">
+                    <font color="white"> Others <input type="checkbox" name="others" id="others"><input type="text" name="others" size="15"
+                        maxlength="30" id="others" class="border">
+                </label></p>
+<!-- HOBBIES SECTION ENDS -->
+<!-- QUALIFICATION SECTION BEGINS -->
+            <tr>
+                <td align="top" style="padding-top: 10px;">
+                    <label for="qualification" class="p1"> <font color="white">QUALIFICATION</label>
+                </td>
+                <table id="t1">
+                    <tr>
+                        <th> <font color="white"> SI.No</th>
+                        <th> <font color="white">Examination</th>
+                        <th align="center"> <font color="white">Board</th>
+                        <th align="center"> <font color="white">Percentage</th>
+                        <th align="center"> <font color="white">Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td> Class X</td>
+                        <td align="center"><input type="text" name="Board" class="border"></td>
+                        <td align="center"><input type="text" name="Percentage" class="border"></td>
+                        <td align="center"><input type="text" name="Year of Passing" class="border"></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td> Class XII</td>
+                        <td align="center"><input type="text" name="ClassXII_Board" class="border"></td>
+                        <td align="center"><input type="text" name="ClassXII_Percentage" class="border"></td>
+                        <td align="center"><input type="text" name="ClassXII_Year" class="border"></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td> Graduation</td>
+                        <td align="center"><input type="text" name="Graduation_Board" class="border"></td>
+                        <td align="center"><input type="text" name="Graduation_Percentage" class="border"></td>
+                        <td align="center"><input type="text" name="Graduation_Year" class="border"></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td> Masters</td>
+                        <td align="center"><input type="text" name="Masters_Board" class="border"></td>
+                        <td align="center"><input type="text" name="Masters_Percentage" class="border"></td>
+                        <td align="center"><input type="text" name="Masters_Year" class="border"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td align="center"><small> <font color="white">(10 Char max)</small></td>
+                        <td align="center"><small> <font color="white">(Upto 2 decimals)</small></td>
+                    </tr>
+                </table>
+            </tr>
+            <!-- QUALIFICATION SECTION ENDS -->
+            <!-- COURSE SELECTION SECTION BEGINS -->
+            <p class="p1"> COURSE <br> APPLIED FOR
+                <label for="course" style="margin-left: 37px;">
+                    BCA<input type="radio" name="course" id="course" value="BCA">
+                    B.Com<input type="radio" name="course" id="course" value="B.Com">
+                    B.Sc <input type="radio" name="course" id="course" value="B.Sc">
+                    B.A <input type="radio" name="course" id="course" value="B.A">
+                </label> </p>
+            <br>
+            <!-- COURSE SELECTION SECTION ENDS -->
+            <!-- BUTTONS -->
+            <center>
+                <input type="submit" class="button"> <input type="Reset" class="button"><br>
+            </center>
+            <!-- BUTTONS -->
+            <br>
+        </div>
+        <br>
+    </form>
+    <!-- MY INTRO -->
+    <h2> Made by: Rukhsar Ali</h2>
+    <h2> Roll Number: WM-9731</h2>
+</body>
+
+</html>
