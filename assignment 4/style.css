@@ -1,0 +1,79 @@
+.body {
+    background-color: #D9D9D9 !important ;
+}
+.navbar {
+    width: 100%;
+    background: #5391AA !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #274450, #5391AA) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #274450, #5391AA) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.navbar-brand {
+    padding-top: 0px;  
+}
+.navbar h3  {
+    color: #95C0D2 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    text-align: center;
+
+}
+.nav-link {
+    color: #95C0D2 !important;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    
+}
+.fa-user-circle-o,.fa-sign-in{
+   font-size: 25px !important;
+   color: #95C0D2 !important;
+   justify-content: center !important;
+   margin-right: 10px;
+   margin-top: 8px;
+   
+}
+.fa-user-circle-o,.fa-sign-in:hover {
+    text-decoration: none !important;
+}
+/* .container {
+    background-color:#D9D9D9 !important;
+    text-align: center !important;
+    /* width: 100% !important; */
+    /* line-height: 2.0 !important; */
+    /* display: inline; */
+    /* float: left !important; */
+    
+/* } */ 
+.aboutus, .cardscourse {
+    text-align: center !important;
+    justify-content: center !important;
+}
+.container h1 {
+    text-align: center;
+    color: green !important;
+}
+/* .intro {
+   height: 30% !important;
+   width: 50% !important;
+   float: right !important;
+}
+.introcard {
+  width: 40% !important;
+  float: left !important;
+  margin: 0px !important;
+  margin-left: -200px !important;
+} */
+/* .container-fluid {
+    flex-wrap: wrap !important;
+} */
+   
+/* .card {
+    width: 300px !important; */
+   
+
+/* @media screen and (max-width: 600px) {
+    .card, .col, .intro {
+        width: 100%;
+    }
+} */
+
